@@ -41,20 +41,6 @@ This project demonstrates a complete AWS-based ETL pipeline designed to analyze 
 | **Analytics** | Amazon Athena | Ad-hoc querying |
 | **Visualization** | Tableau Desktop | Business intelligence dashboards |
 
-### Airflow DAG Workflow
-
-```mermaid
-graph LR
-    A[tsk_glue_job_trigger<br/>PythonOperator] --> B[tsk_grab_glue_job_run_id<br/>PythonOperator]
-    B --> C[tsk_is_glue_job_finish_running<br/>GlueJobSensor]
-    
-    style A fill:#ff9999
-    style B fill:#ffcc99  
-    style C fill:#99ccff
-```
-
----
-
 ## Key Business Metrics
 
 Based on the analysis of **6,400 customers**:
