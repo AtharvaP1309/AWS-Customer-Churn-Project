@@ -23,7 +23,6 @@ This project demonstrates a complete AWS-based ETL pipeline designed to analyze 
 
 ## Architecture Overview
 
-![Architecture Diagram]
 
 <img width="1335" alt="Screenshot 2025-06-08 at 8 28 56 PM" src="https://github.com/user-attachments/assets/11ac100c-675b-4796-9b7b-f2d5e1ad53e4" />
 
